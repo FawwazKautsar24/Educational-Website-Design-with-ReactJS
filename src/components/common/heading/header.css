@@ -15,6 +15,7 @@
 header{
     background-color: rgba(255, 255, 255, 0.2);
     margin: 0 30px;
+    position: relative;
 }
 header ul{
     padding: 30px 20px;
@@ -41,7 +42,8 @@ header ul li a:hover{
     display: none;
 }
 
-@media screen and (max-width: 768px){
+/* @media screen and (max-width: 768px){ */
+@media screen and (max-width: 960px){
     header{
         margin: 0;
         background-color: #1eb2a6;
@@ -63,13 +65,13 @@ header ul li a:hover{
         color: #fff;
         font-size: 30px;
         position: absolute;
-        top: 20px;
+        top: -20px;
         right: 30px;
     }
     /* (header ul.flexSB) diganti menjadi (.mobile-nav) */
     .mobile-nav{
         position: absolute;
-        top: 10vh;
+        top: 70px;
         left: 0;
         width: 100%;
         background-color: #1eb2a6;
