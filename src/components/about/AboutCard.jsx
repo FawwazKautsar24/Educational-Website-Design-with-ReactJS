@@ -1,9 +1,36 @@
 import React from 'react';
+import { homeAbout } from '../../dummyData';
+import Title from '../common/title/Title';
+import AWrapper from './AWrapper';
+import './about.css';
 
 const AboutCard = () => {
     return (
         <>
-            <h1>AboutCard</h1>
+            <section className="aboutHome">
+                <div className="container flexSB">
+                    <div className="left row">
+                        <img src="./images/about.webp" alt="About Image" />
+                    </div>
+                    <div className="right row">
+                        <Title subtitle="LEARN ANYTHING" title="Befefits About Online Learning Expertise" />
+                        <div className="items">
+                            {homeAbout.map((val) => (
+                                <div className="item flexSB">
+                                    <div className="img">
+                                        <img src={val.cover} alt="" />
+                                    </div>
+                                    <div className="text">
+                                        <h2>{val.title}</h2>
+                                        <p>{val.desc}</p>
+                                    </div>
+                                </div>
+                            ))}
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <AWrapper />
         </>
     );
 }
