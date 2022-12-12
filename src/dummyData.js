@@ -170,7 +170,7 @@ export const coursesCard = [
     priceAll: "$20 All Course",
     pricePer: "$3 per month",
   },
-]
+];
 
 export const online = [
   {
@@ -245,4 +245,47 @@ export const online = [
     courseName: "Web Management",
     course: "17 Courses",
   },
-]
+];
+
+export const team = [
+  {
+    cover: "./images/team/t1.webp",
+    name: "Ph.D Adrian Molises",
+    work: "DEVELOPER AND LEAD INSTRUCTOR",
+  },
+  {
+    cover: "./images/team/t2.webp",
+    name: "Ph.D Arthur MaGregor",
+    work: "DEVELOPER AND LEAD INSTRUCTOR",
+  },
+  {
+    cover: "./images/team/t3.webp",
+    name: "Ph.D Anna Hanzen",
+    work: "DEVELOPER AND LEAD INSTRUCTOR",
+  },
+  {
+    cover: "./images/team/t4.webp",
+    name: "Ph.D Brian Wooden",
+    work: "DEVELOPER AND LEAD INSTRUCTOR",
+  },
+  {
+    cover: "./images/team/t5.webp",
+    name: "Ph.D Adrian Molises",
+    work: "DEVELOPER AND LEAD INSTRUCTOR",
+  },
+  {
+    cover: "./images/team/t6.webp",
+    name: "Ph.D Arthur MaGregor",
+    work: "DEVELOPER AND LEAD INSTRUCTOR",
+  },
+  {
+    cover: "./images/team/t7.webp",
+    name: "Ph.D Anna Hanzen",
+    work: "DEVELOPER AND LEAD INSTRUCTOR",
+  },
+  {
+    cover: "./images/team/t8.webp",
+    name: "Ph.D Brian Wooden",
+    work: "DEVELOPER AND LEAD INSTRUCTOR",
+  },
+];
