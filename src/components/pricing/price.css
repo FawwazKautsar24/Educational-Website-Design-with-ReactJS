@@ -16,3 +16,32 @@
     color: grey;
     margin: 40px 0;
 }
+
+.faq .container{
+    max-width: 70%;
+    border-radius: 5px;
+}
+.faq .box{
+    background-color: #fff;
+    margin-bottom: 20px;
+}
+.faq button{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    padding: 15px 20px;
+}
+.faq h2{
+    font-weight: 500;
+}
+.faq p{
+    padding: 20px;
+}
+.faq .accordion{
+    transition: 0.5s;
+}
+.faq .accordion:hover{
+    background-color: #1eb2a6;
+    color: #fff;
+}

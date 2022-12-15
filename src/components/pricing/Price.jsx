@@ -1,6 +1,7 @@
 import React from 'react';
 import Back from '../common/back/Back';
 import PriceCard from './PriceCard';
+import Faq from './Faq';
 import './price.css';
 
 const Price = () => {
@@ -12,6 +13,7 @@ const Price = () => {
                     <PriceCard />
                 </div>
             </section>
+            <Faq />
         </>
     )
 }
