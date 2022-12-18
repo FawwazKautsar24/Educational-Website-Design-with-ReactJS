@@ -4,7 +4,7 @@ import Header from './components/common/heading/Header';
 import Home from './components/home/Home';
 import About from './components/about/About';
 import CourseHome from './components/all_courses/CourseHome';
-import Team from './components/home/team/Team';
+import Team from './components/team/Team';
 import Price from './components/pricing/Price';
 import Blog from './components/blog/Blog';
 

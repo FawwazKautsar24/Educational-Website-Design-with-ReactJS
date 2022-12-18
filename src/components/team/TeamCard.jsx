@@ -1,5 +1,5 @@
 import React from 'react';
-import { team } from '../../../dummyData';
+import { team } from '../../dummyData';
 
 const TeamCard = () => {
     return (
@@ -8,7 +8,7 @@ const TeamCard = () => {
                 return (
                     <div className="items shadow">
                         <div className="img">
-                            <img src={val.cover} alt="Our Team Image" />
+                            <img src={val.cover} alt="Our Team" />
                             <div className="overlay">
                                 <i className="fab fa-facebook-f icon"></i>
                                 <i className="fab fa-instagram icon"></i>
