@@ -12,7 +12,7 @@ const Contact = () => {
             <section className="contact padding">
                 <div className="container shadow flexSB">
                     <div className="left row">
-                        <iframe src={map} ></iframe>
+                        <iframe src={map} title="Location" ></iframe>
                     </div>
 
                     <div className="right row">
